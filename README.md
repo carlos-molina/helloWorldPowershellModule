@@ -59,7 +59,7 @@ PS /Users/carlosmolina/code/powershell> Import-Module helloworldmodule
 This function is coded inside the helloworldmodule.psm1 and since the helloworldmodule has been imported, I can use it from from Power shell session.
 
 
-## 7) Actual execution of the helloworld function
+## 7) I executed  the helloworld function
 
 a) I did not forget to import the helloworldmodule
 
