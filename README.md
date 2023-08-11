@@ -8,7 +8,9 @@ hello world in Powershell using a module
 ##1) I started a Power shell session
      
 bash-3.2$ pwsh
+
 PowerShell 7.3.6
+
 PS /Users/carlosmolina/code/powershell> 
 
 
@@ -28,6 +30,7 @@ bash-3.2$ pwd
 /Users/carlosmolina/.local/share/powershell/Modules
 
 bash-3.2$ ls
+
 helloworldmodule/
         
         
@@ -36,6 +39,7 @@ helloworldmodule/
 Store the file called helloworldmodule.psm1 which contains the module's code, including the  helloWorld function
   
 bash-3.2$ ls helloworldmodule
+
 helloworldmodule.psm1
 
     
@@ -57,6 +61,7 @@ PS /Users/carlosmolina/code/powershell> Import-Module helloworldmodule
 
  
 PS /Users/carlosmolina/code/powershell> helloWorld
+
 Hello World!
 
 
