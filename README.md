@@ -36,29 +36,36 @@ helloworldmodule/
         
         
   
-## 4) Inside the subdirectory helloworldmodule I store the file called helloworldmodule.psm1 which contains the module's code, including the  helloWorld function
+## 4) I stored the helloworldmodule.psm1
+
+Inside the subdirectory helloworldmodule I store the file called helloworldmodule.psm1 which contains the module's code, including the  helloWorld function
   
 bash-3.2$ ls helloworldmodule
 
 helloworldmodule.psm1
 
     
-## 5)  I import the helloworldmodule
+## 5)  I imported the helloworldmodule
         
 PS /Users/carlosmolina/code/powershell> Import-Module helloworldmodule
 
 
 
   
-## 6) I called the helloWorld function into execution. This function is coded inside the helloworldmodule.psm1 and since the helloworldmodule has been imported, I can use it from from Power shell session.
+## 6) I called the helloWorld function into execution.
+
+This function is coded inside the helloworldmodule.psm1 and since the helloworldmodule has been imported, I can use it from from Power shell session.
 
 
 ## 7) Actual execution of the helloworld function
 
 a) I did not forget to import the helloworldmodule
+
 PS /Users/carlosmolina/code/powershell> Import-Module helloworldmodule      
 
+
  b) I called the helloWorld function provided by the helloworldmodule
+
 PS /Users/carlosmolina/code/powershell> helloWorld
 
 Hello World!
