@@ -5,7 +5,7 @@ This repo contains a "hello world" implementation written with a Powershell modu
 hello world in Powershell using a module
 
 
-To run the helloworldmodule I executed the following steps 
+To run the helloworldmodule I executed the following steps: 
 
      
 ## 1) I started a Power shell session
@@ -25,13 +25,12 @@ I typed $env:PSModulePat to display the directories that  are currently included
 PS /Users/carlosmolina/code/powershell> $env:PSModulePath
 /Users/carlosmolina/.local/share/powershell/Modules:/usr/local/share/powershell/Modules:/usr/local/microsoft/powershell/7/Modules
 
-I didn't change the $env:PSModulePath variable. Thus, I placed the helloworldmodule in one of the directories already in the Power shell path.
-
 
 ## 3) I created the helloworldmodule directory 
 
-I created it Inside the directory Modules and called it helloworldmodule
-      
+I chose not to change the $env:PSModulePath variable. Thus, I placed the helloworldmodule directoty inside one of the directories already in the Power shell's path, namely, the Modules directory.
+
+     
 bash-3.2$ pwd
 /Users/carlosmolina/.local/share/powershell/Modules
 
@@ -43,7 +42,7 @@ helloworldmodule/
   
 ## 4) I stored the helloworldmodule.psm1
 
-Inside the subdirectory helloworldmodule I store the file called helloworldmodule.psm1 which contains the module's code, including the  helloWorld function
+Inside the subdirectory helloworldmodule, I store the file called helloworldmodule.psm1 which contains the module's code, including the  helloWorld function.
   
 bash-3.2$ ls helloworldmodule
 
