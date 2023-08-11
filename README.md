@@ -5,7 +5,7 @@ hello world in Powershell using a module
 # To run the helloworldmodule I executed the following steps 
 
      
-##1) I started a Power shell session
+## 1) I started a Power shell session
      
 bash-3.2$ pwsh
 
