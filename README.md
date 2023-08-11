@@ -1,8 +1,11 @@
-# helloWorldPowershellModule
+This repo contains the "hello world" written in  Powershell modules and other very basic examples of modules.
+
+
+# I- helloWorldPowershellModule
 hello world in Powershell using a module
 
 
-# To run the helloworldmodule I executed the following steps 
+To run the helloworldmodule I executed the following steps 
 
      
 ## 1) I started a Power shell session
@@ -73,3 +76,5 @@ PS /Users/carlosmolina/code/powershell> helloWorld
 Hello World!
 
 
+
+# II-  writemessagemodule.psm1 and calendarexamplemodule.psm1 are meant to extend the knowledge beyond "hello world". They show how to include functions in a module and how to call the into execution. 
