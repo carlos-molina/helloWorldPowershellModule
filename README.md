@@ -28,7 +28,7 @@ PS /Users/carlosmolina/code/powershell> $env:PSModulePath
 
 ## 3) I created the helloworldmodule directory 
 
-I chose not to change the $env:PSModulePath variable. Thus, I placed the helloworldmodule directoty inside one of the directories already in the Power shell's path, namely, the Modules directory.
+I chose not to change the $env:PSModulePath variable. Thus, I placed the helloworldmodule directoty inside one of the directories already in the Power shell's path, namely, in the Modules directory.
 
      
 bash-3.2$ pwd
