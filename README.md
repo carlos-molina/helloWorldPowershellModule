@@ -79,4 +79,4 @@ Hello World!
 
 # II- Two additional and basic examples of Powershell modules 
 
-writemessagemodule.psm1 and calendarexamplemodule.psm1 are meant to extend the knowledge beyond "hello world". They show how to include functions in a module and how to call the into execution. 
+writemessagemodule.psm1 and calendarexamplemodule.psm1 are meant to extend the knowledge beyond "hello world". They show how to include functions in a module and how to call them into execution. 
