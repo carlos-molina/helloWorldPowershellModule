@@ -1,4 +1,4 @@
-This repo contains the "hello world" written in  Powershell modules and other very basic examples of modules.
+This repo contains a "hello world" implementation written in  Powershell modules and other very basic examples of modules.
 
 
 # I- helloWorldPowershellModule
