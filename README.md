@@ -5,7 +5,7 @@ This repo contains a "hello world" implementation written with a Powershell modu
 hello world in Powershell using a module
 
 
-To run the helloworldmodule I executed the following steps: 
+To run the helloworldmodule I followed steps 1 to 6: 
 
      
 ## 1) I started a Power shell session
@@ -56,12 +56,10 @@ PS /Users/carlosmolina/code/powershell> Import-Module helloworldmodule
 
 
   
-## 6) I called the helloWorld function into execution.
+## 6) I executed  the helloworld function
 
 This function is coded inside the helloworldmodule.psm1 and since the helloworldmodule has been imported, I can use it from from Power shell session.
 
-
-## 7) I executed  the helloworld function
 
 a) I did not forget to import the helloworldmodule
 
@@ -78,4 +76,7 @@ Hello World!
 
 # II- Two additional and basic examples of Powershell modules 
 
-writemessagemodule.psm1 and calendarexamplemodule.psm1 are meant to extend the knowledge beyond "hello world". They show how to include functions in a module and how to call them into execution. 
+writemessagemodule.psm1 and calendarexamplemodule.psm1 are meant to extend the knowledge beyond "hello world". They show how to include functions in a module. The execution such functions is similar to the execution of the helloWorld function.  One can follow the same step which include storing the modules in the Modules subdirectory and import them.
+
+
+
